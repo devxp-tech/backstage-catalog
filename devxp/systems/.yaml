@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: 
+  description: Backstage
+  tags:
+    - 
+    - frontend
+  links:
+    - url: https://.diegoluisi.eti.br
+      title: System
+      icon: dashboard
+  annotations:
+    github.com/project-slug: devxp-tech/
+    backstage.io/kubernetes-namespace: 
+spec:
+  type: system
+  owner: group:dev-team
+  domain: frontend
