@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: teste
+  description: Backstage
+  tags:
+    - teste
+    - teste.savicki.com
+  links:
+    - url: https://teste.diegoluisi.eti.br
+      title: System
+      icon: dashboard
+  annotations:
+    github.com/project-slug: devxp-tech/teste
+    backstage.io/kubernetes-namespace: teste
+spec:
+  type: system
+  owner: group:devxp-tech
+  domain: teste.savicki.com
