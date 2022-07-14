@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: mobile-api
+  description: Backstage
+  tags:
+    - mobile-api
+    - backend
+  links:
+    - url: https://mobile-api.diegoluisi.eti.br
+      title: System
+      icon: dashboard
+  annotations:
+    github.com/project-slug: devxp-tech/mobile-api
+    backstage.io/kubernetes-namespace: mobile-api
+spec:
+  type: system
+  owner: group:devxp-tech
+  domain: backend
